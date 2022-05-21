@@ -38,9 +38,16 @@
 
 > TODO
 
+- [redleafnew/zotero-javascripts](https://github.com/redleafnew/zotero-javascripts) - Zotero 中辅助批量处理的 JavaScripts 脚本。
+
 ## Zotero Plugins
 
 > 最常用的 Zotero 插件，能够大幅提高大家的工作效率。
+
+- [redleafnew/zotero-updateifs](https://github.com/redleafnew/zotero-updateifs) - 从唯问更新期刊影响因子的插件。
+- [diegodlh/zotero-cita](https://github.com/diegodlh/zotero-cita) - Zotero 的 Wikidata 插件，支持引文元数据。
+- [stefanopagliari/bibnotes](https://github.com/stefanopagliari/bibnotes) - BibNotes Formatter 从存储在你的 Zotero 库中的资料生成 literaure notes，包括元数据和存储在 Zotero 中的注释（使用本地 PDF 阅读器或 Zotfile 插件提取的）。该插件的设置提供了不同的工具来定制文献注释的格式，以及对注释的文本进行不同的转换。
+- [beloglazov/zotero-scholar-citations](https://github.com/beloglazov/zotero-scholar-citations) - Zotero插件，用于自动获取谷歌学者的引文数量。
 
 ## Zotero Translators
 
@@ -62,6 +69,8 @@
 ## Zotero Citation Style Language (CSL)
 
 > TODO
+
+- [redleafnew/Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-STD-GB-T-7714-related-csl) - GB/T 7714—2015 相关的 CSL 样式。
 
 ## Contribute
 
