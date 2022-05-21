@@ -9,34 +9,49 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Zotero Official](#zotero-official)
 - [Zotero Tutorials](#zotero-tutorials)
-- [Other Zotero Resources on GitHub](#other-zotero-resources-on-github)
+    - [Zotero Official Resources](#zotero-official-resources)
+    - [Zotero Community-driven Tutorials](#zotero-community-driven-tutorials)
+- [Zotero Utilities](#zotero-utilities)
+    - [Citation Style Language (CSL)](#citation-style-language-csl)
+    - [Text Editor Plugin for Zotero](#text-editor-plugin-for-zotero)
+    - [Other Zotero Resources on GitHub](#other-zotero-resources-on-github)
 - [Zotero Plugins](#zotero-plugins)
+    - [Zotero Plugins Dev](#zotero-plugins-dev)
 - [Zotero Translators](#zotero-translators)
-- [Zotero Plugins Dev](#zotero-plugins-dev)
-- [Zotero Translators Dev](#zotero-translators-dev)
-- [Zotero Citation Style Language (CSL)](#zotero-citation-style-language-csl)
+    - [Zotero Translators Dev](#zotero-translators-dev)
 - [Contribute](#contribute)
 - [Contributors](#contributors)
 - [Contact](#contact)
 - [Credits](#credits)
 - [License](#license)
 
-## Zotero Official
-
-> TODO
-
-- [Zotero 官网](https://www.zotero.org/)
-- [Zotero 官方论坛](https://forums.zotero.org/discussions)
-
 ## Zotero Tutorials
 
-> TODO
-
-## Other Zotero Resources on GitHub
+### Zotero Official Resources
 
 > TODO
+
+- [Zotero 官网教程](https://www.zotero.org/support/)
+- [Zotero 官方论坛](https://forums.zotero.org/discussions)
+
+### Zotero Community-driven Tutorials
+
+> TODO
+
+## Zotero Utilities
+
+### Citation Style Language (CSL)
+
+> TODO
+
+- [redleafnew/Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-STD-GB-T-7714-related-csl) - GB/T 7714—2015 相关的 CSL 样式。
+
+### Text Editor Plugin for Zotero
+
+- [Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) - 在使用 Visual Studio Code 的 Markdown、pandoc（.md 后缀）以及 LaTeX 文件的编写过程中，如果想要实现类似 Word 文件的编辑过程，边插入边更新 bib 文件。或者想将当前文件的 key 列表，导出最终的 bib 文件，那么该插件就非常适合你。
+
+### Other Zotero Resources on GitHub
 
 - [redleafnew/zotero-javascripts](https://github.com/redleafnew/zotero-javascripts) - Zotero 中用于批处理的一些 JavaScript 脚本。
 
@@ -53,6 +68,10 @@
 - [Zotfile](https://github.com/jlegewie/zotfile) - Zotfile 原本最好用的功能是自动重命名下载的文件。结果，Zotero 新版自带这个功能了。所以这个亮点被淹没了。无论如何，如果需要更多自定义，自动重命名的方法，以及提取 PDF 注释，这个插件还是绕不过；
 - [Zutilo](https://github.com/wshanks/Zutilo) - Zutilo 是 Zotero 的必备插件。加速 Zotero 的常用操作，提供了大量快捷操作方式，并且支持自定义快捷键。能够大大减少体力劳动；
 
+### Zotero Plugins Dev
+
+> TODO
+
 ## Zotero Translators
 
 > TODO
@@ -60,19 +79,9 @@
 - [OpenMindClub/awesome-translators](https://github.com/OpenMindClub/awesome-translators) - 存放 2018 年至今，开智学堂信息分析课程组与学员共创的 Translators
 - [l0o0/translators_CN](https://github.com/l0o0/translators_CN) - 另一个中文 Translators 仓库。
 
-## Zotero Plugins Dev
+### Zotero Translators Dev
 
 > TODO
-
-## Zotero Translators Dev
-
-> TODO
-
-## Zotero Citation Style Language (CSL)
-
-> TODO
-
-- [redleafnew/Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-STD-GB-T-7714-related-csl) - GB/T 7714—2015 相关的 CSL 样式。
 
 ## Contribute
 
