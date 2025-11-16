@@ -1,18 +1,18 @@
-node_modules/
+dist
 dist/*.html
 dist/*.json
-dist
+node_modules/
 npm-debug.log*
 package-lock.json
 
-.DS_Store
 .cache
+.DS_Store
 .rdoc-dist
 .vscode
 
 *.bak
 *.tem
 *.temp
-#.swp
+
 *.*~
 ~*.*

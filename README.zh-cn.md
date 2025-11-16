@@ -6,180 +6,345 @@
 
 <!--rehype:style=text-align: center;-->
 
-## Table of Contents
+社区维护的 Zotero 7 生态导航。聚焦高质量、长期稳定的工作流与插件，不再以 Zotero 6 兼容性为目标。
 
-- [Table of Contents](#table-of-contents)
-- [Zotero Tutorials](#zotero-tutorials)
-    - [Zotero Official Resources](#zotero-official-resources)
-    - [Zotero Community-driven Tutorials](#zotero-community-driven-tutorials)
-- [Zotero Utilities](#zotero-utilities)
-    - [Citation Style Language (CSL)](#citation-style-language-csl)
-    - [Text Editor Plugin for Zotero](#text-editor-plugin-for-zotero)
-    - [Other Zotero Resources on GitHub](#other-zotero-resources-on-github)
-- [Zotero Plugins](#zotero-plugins)
-    - [TODO Zotero Plugins Dev](#todo-zotero-plugins-dev)
-- [Zotero Translators](#zotero-translators)
-    - [Zotero Translators Dev](#zotero-translators-dev)
-- [Contribute](#contribute)
-- [Contributors](#contributors)
-- [Contact](#contact)
-- [Credits](#credits)
-- [License](#license)
+> 如果你刚开始用 Zotero 或刚从 6 升级到 7，可以先看「快速上手」这一节，再按需往下展开。
 
-## Zotero Tutorials
+## 快速上手：2025 推荐工作流
 
-### Zotero Official Resources
+> 默认你使用 Zotero 7. 这一节给出一套信息密度高的「标准增强组合」。
 
-- [Zotero 官方论坛](https://forums.zotero.org/discussions)
-- [Zotero 官网教程](https://www.zotero.org/support/)
-- [Zotero 版本记录](https://www.zotero.org/support/changelog)
-- [Zotero 常用快捷键](https://www.zotero.org/support/kb/keyboard_shortcuts)
-- [Zotero 插件](https://www.zotero.org/support/plugins)
-- [Zotero Item 定义](https://www.zotero.org/support/kb/item_types_and_fields)
+**最小推荐栈 (10 个插件):**
 
-### Zotero Community-driven Tutorials
+1. **Better BibTeX for Zotero**
+   [retorquere/zotero-better-bibtex](https://github.com/retorquere/zotero-better-bibtex)
+   稳定生成 citekey, 提供增强的 BibTeX 和 CSL JSON 导出，支持自动刷新文献列表。LaTeX, Markdown, Pandoc 写作的刚需。
 
-- 核心概念 - BIBFRAME、MARC、DOI 与 Citation Style Language
-    - Schreur, P. (2018). The Evolution of BIBFRAME: from MARC Surrogate to Web Conformant Data Model. 10.
-    - Taniguchi, S. (2017). Examining BIBFRAME 2.0 from the Viewpoint of RDA Metadata Schema. Cataloging & Classification Quarterly, 1–26. https://doi.org/10.1080/01639374.2017.1322161
-    - [Zotero Quick Tip: Adding DOI Numbers - YouTube](https://www.youtube.com/watch?v=ywgTnDIVGsM)
-    - [From MARC to BIBFRAME: An Introduction - YouTube](https://www.youtube.com/watch?v=OQijXJauo8I)
-    - [MARC standards - Wikipedia](https://en.wikipedia.org/wiki/MARC_standards)
-    - [BIBFRAME - Wikipedia](https://en.wikipedia.org/wiki/BIBFRAME)
-    - [Citation Style Language - Wikipedia](https://en.wikipedia.org/wiki/Citation_Style_Language)
-- 系列文章 - 阳志平老师的 Zotero 最佳实践
-    - [Zotero（1）：文献管理软件 Zotero 基础及进阶示范 - 阳志平的网志](https://www.yangzhiping.com/tech/zotero1.html)
-    - [Zotero（2）：作为知识管理工具的 Zotero - 阳志平的网志](https://www.yangzhiping.com/tech/zotero2.html)
-    - [Zotero（3）：平板与社交：再谈研究辅助工具 Zotero 兼配套 App - 阳志平的网志](https://www.yangzhiping.com/tech/zotero3.html)
-    - [Zotero（4）：Zotero 之 Zotfile 插件的使用 - 阳志平的网志](https://www.yangzhiping.com/tech/zotero4.html)
-    - [Zotero（5）：电子文献管理攻略 - 阳志平的网志](https://www.yangzhiping.com/tech/zotero5.html)
-    - [Zotero（6）：如何批量下载 PDF - 阳志平的网志](https://www.yangzhiping.com/tech/zotero6.html)
-- 系列文章 - 数字人文时代的个人数据库
-    - [日码五千字：2019 年我的写作机器 - 少数派](https://sspai.com/post/58872)
-    - [一、瓦尔堡的卡片盒子：对 Bibliography 的创造性使用和建造 - 少数派](https://sspai.com/post/58895)
-    - [二、牛津文献书目和个人研究方向：数字时代如何构建研究框架 - 少数派](https://sspai.com/post/58896)
-    - [三、书目作为艺术史研究的方法：艺术史联合书目检索系统 Kubikat - 少数派](https://sspai.com/post/58897)
-    - [四、数字人文时代的目录学：用 Zotero 保存 Kubikat 的检索条目 - 少数派](https://sspai.com/post/58898)
-    - [五、集中建立初步的书目结构：艺术家研究文献的检索和整理 - 少数派](https://sspai.com/post/58899)
-    - [数字人文时代的个人数据库之五：艺术史的写作：图像的尤利西斯之旅 - 少数派](https://sspai.com/post/58908)
-    - [书目作为艺术史研究的方法：如何勾画文艺复兴艺术史研究的全貌 - 少数派](https://sspai.com/post/62628)
-- 系列文章 - 正在整理中
-    - [Zotero 如何添加文章检索引擎 - 少数派](https://sspai.com/post/40458)
-    - [文献管理终级神器 Zotero | 董翰林的个人网站](http://www.hanlindong.com/2018/zotero-citation-manager/)
-    - [四步实现自定义 Zotero 参考文献格式 - 知乎](https://zhuanlan.zhihu.com/p/31326415)
-    - [使用 Zotero 构建自己的知识创造工具 - 简书](https://www.jianshu.com/p/c88388c5a5db)
-    - [文献管理神器 Zotero 学习路径指南 - 少数派](https://sspai.com/post/56724)
-    - [我的 Zotero 实践汇总 - 知乎](https://zhuanlan.zhihu.com/p/108366072)
-    - [文献管理利器 Zotero 设置技巧 - 少数派](https://sspai.com/post/59035)
-    - [Zotero 和它的朋友们：一个文献阅读生态 - 少数派](https://sspai.com/post/57943)
-    - [Zotero 文献生态](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxNzgyMDg0MQ==&action=getalbum&album_id=1319074508795641857&scene=173&subscene=&sessionid=undefined&enterid=1607295885&from_msgid=2650461721&from_itemidx=1&count=3#wechat_redirect)
-    - [为何知网的数据无法导入 Zotero？ - 知乎](https://www.zhihu.com/question/21518558)
-    - [逛了会儿 Zotero Twitter 发现了哪些宝藏](https://www.linxingzhong.top/posts/2019-11-14/)
-    - [Zotero 知网 CNKI 网页识别](https://www.linxingzhong.top/posts/2019-11-5/)
-    - [Zotero | 04-如何在 Zotero 中添加条目_哔哩哔哩_bilibili](https://www.bilibili.com/video/av84358188)
-    - [Zotero | 06-如何在 LaTeX 写作中使用 Zotero（Better BibTeX 的使用）_哔哩哔哩_bilibili](https://www.bilibili.com/video/av86516831)
-    - [Zotero | 07-如何使用 Better BibTeX 实现文献信息文件自动更新_哔哩哔哩_bilibili](https://www.bilibili.com/video/av86618755)
-    - [青柠学术](https://qnscholar.github.io/archive/)
-    - [引用量｜无限制版 Zotero Scholar Citations 插件来了！](https://mp.weixin.qq.com/s?__biz=MzAxNzgyMDg0MQ==&mid=2650462747&idx=1&sn=b82575cf2486e8316c15493233615a71&chksm=83d1c7ddb4a64ecb55aeb95a3d06b882d2bc8e6e5107cccba645d7cefbf30d5e2fa0acc7c734#rd)
-    - [用 Zotero + 坚果云搞定多设备文献管理 - 少数派](https://sspai.com/post/64283)
-    - [ZotExpert：实现 iPad 文献管理的无缝同步 - 知乎](https://zhuanlan.zhihu.com/p/92058644)
-    - [重磅：Zotero + Connected Papers，打造可视化文献网络！](https://mp.weixin.qq.com/s?__biz=MzAxNzgyMDg0MQ==&mid=2650462356&idx=1&sn=37e83d35cfe3f429c6a052bc559adc2e&chksm=83d1c552b4a64c44b7ee3ce96b022325e06dfe881d79130d82ca1a015fe96540910b1ed65e50#rd)
-    - [我的科研软件流分享 - 少数派](https://sspai.com/post/63830)
-    - [重磅！Zotero 中文文献识别！它来了！](https://mp.weixin.qq.com/s?__biz=MzAxNzgyMDg0MQ==&mid=2650459551&idx=1&sn=d66f7412305ba1195d7bd07ec1bf6277&chksm=83d1d059b4a6594f09d2e2f241407aa36b0e07316b327db37e36c2a59da222b324e9c19232d6#rd)
-    - [Zotero 搭配 Sci-Hub，真香！（更新版 2）](https://mp.weixin.qq.com/s?__biz=MzAxNzgyMDg0MQ==&mid=2650457896&idx=1&sn=639b5473abf81708c22b87cfd8df2463&chksm=83d1daeeb4a653f8fa5a666eda99b00e12c59f0f75d4759b3959e4056dc4af6acd53fbbebff4#rd)
-    - [使用 Zotero 在 Markdown 中优雅地处理参考文献 - 少数派](https://sspai.com/post/60825)
-    - [用 Markdown 写论文如何关联 Zotero 添加引用？Zotpick 和 Docdown 使用简介_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV15V411C7a2)
+2. **Better Notes for Zotero**
+   [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes)
+   在 Zotero 内完成文献笔记的拆分、链接与重组，支持模板、子笔记、图谱视图，并可以同步到 Markdown 文件。
 
-## Zotero Utilities
+3. **Translate for Zotero (Zotero PDF Translate)**
+   [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate)
+   为 PDF, EPUB 和网页提供多引擎翻译，支持划词和整页翻译，中英双向阅读更轻松。
+
+4. **Actions & Tags for Zotero**
+   [windingwind/zotero-actions-tags](https://github.com/windingwind/zotero-actions-tags)
+   基于标签的自动化工作流中心：为新条目自动打标签，批量移动到集合，修改字段，连通各种批处理脚本。
+
+5. **Linter for Zotero**
+   [northword/zotero-format-metadata](https://github.com/northword/zotero-format-metadata)
+   清理和统一元数据：修正标题格式，设置期刊缩写，统一语言字段，发现潜在重复条目。
+
+6. **ZotMoov**
+   [wileyyugioh/zotmoov](https://github.com/wileyyugioh/zotmoov)
+   Zotfile 在 Zotero 7 时代的替代方案，支持将附件移动到 OneDrive, Dropbox, Box 等同步盘，并按规则重命名。
+
+7. **Zotero Add-on Market**
+   [syt2/zotero-addons](https://github.com/syt2/zotero-addons)
+   插件市场：在 Zotero 内浏览、搜索、安装和更新插件，终端用户找插件的第一站。
+
+8. **Jasminum**
+   [l0o0/jasminum](https://github.com/l0o0/jasminum)
+   中文文献元数据增强：作者姓名格式，拼音排序，中文期刊信息等，是中文用户几乎必装的插件。
+
+9. **DOI Manager / Zotero ShortDOI**
+   [bwiernik/zotero-shortdoi](https://github.com/bwiernik/zotero-shortdoi)
+   使用 Crossref 等数据源校验和补全 DOI, 生成 short DOI, 让文献条目更完整更稳定。
+
+10. **去重和附件健康**
+    - [ZoteroDuplicatesMerger](https://github.com/frangoud/ZoteroDuplicatesMerger)
+      批量合并重复条目，配合 Zotero 内置 Duplicates 视图使用。
+    - [Zoplicate](https://github.com/Polygon/zoplicate)
+      更智能的重复检测和半自动合并，对大型库很有帮助。
+    - [Attachment Scanner](https://github.com/retorquere/zotero-attachment-scanner)
+      扫描丢失附件和潜在重复文件，清理磁盘时很好用。
+
+**典型扩展组合：**
+
+- 学术写作 (LaTeX / Markdown / Pandoc)
+  - Better BibTeX
+  - zotxt 或 MarkDB-Connect
+  - Citation Tally 或 Scite 插件 (查看引用情况)
+
+- 知识管理 (Obsidian / Logseq / Roam)
+  - Better Notes
+  - MarkDB-Connect
+  - Zotero2MD 或 Zotero2Readwise
+  - Obsidian 插件或 zotero-roam 之类的桥接工具
+
+- Notion 工作流
+  - Better BibTeX
+  - Notero 将文献同步到 Notion
+  - 再配合 Notion 模板管理写作和项目
+
+- AI + Zotero
+  - Awesome GPT / PapersGPT / Zotero-TLDR
+  - 对单篇或一组文献做摘要，问答和辅助写作
+  - 注意隐私和合规，不要上传保密稿件
+
+## Zotero 教程
+
+### 官方资源
+
+- [Zotero 支持文档](https://www.zotero.org/support/)
+- [Zotero 论坛](https://forums.zotero.org/discussions)
+- [Zotero 更新记录](https://www.zotero.org/support/changelog)
+- [快捷键列表](https://www.zotero.org/support/kb/keyboard_shortcuts)
+- [插件列表](https://www.zotero.org/support/plugins)
+- [Item 类型与字段定义](https://www.zotero.org/support/kb/item_types_and_fields)
+
+### 社区文章与视频
+
+> 许多经典文章写于 Zotero 5 或 6 时期，UI 截图略有差异，但对文献管理与知识管理的理解在 Zotero 7 时代仍然适用。
+
+- 核心概念：BIBFRAME, MARC, DOI, CSL 等
+  - Schreur, P. The Evolution of BIBFRAME: from MARC Surrogate to Web Conformant Data Model.
+  - Taniguchi, S. Examining BIBFRAME 2.0 from the Viewpoint of RDA Metadata Schema.
+  - [MARC standards](https://en.wikipedia.org/wiki/MARC_standards)
+  - [BIBFRAME](https://en.wikipedia.org/wiki/BIBFRAME)
+  - [Citation Style Language](https://en.wikipedia.org/wiki/Citation_Style_Language)
+  - [Zotero Quick Tip: Adding DOI Numbers](https://www.youtube.com/watch?v=ywgTnDIVGsM)
+
+- 阳志平老师的 Zotero 最佳实践系列
+  - [Zotero (1): 文献管理软件 Zotero 基础及进阶示范](https://www.yangzhiping.com/tech/zotero1.html)
+  - [Zotero (2): 作为知识管理工具的 Zotero](https://www.yangzhiping.com/tech/zotero2.html)
+  - [Zotero (3): 平板与社交：再谈研究辅助工具 Zotero 兼配套 App](https://www.yangzhiping.com/tech/zotero3.html)
+  - [Zotero (4): Zotfile 插件的使用](https://www.yangzhiping.com/tech/zotero4.html)
+  - [Zotero (5): 电子文献管理攻略](https://www.yangzhiping.com/tech/zotero5.html)
+  - [Zotero (6): 如何批量下载 PDF](https://www.yangzhiping.com/tech/zotero6.html)
+
+- 数字人文与个人数据库
+  - [日码五千字：2019 年我的写作机器](https://sspai.com/post/58872)
+  - [一：瓦尔堡的卡片盒子](https://sspai.com/post/58895)
+  - [二：牛津文献书目和个人研究方向](https://sspai.com/post/58896)
+  - [三：书目作为艺术史研究的方法：Kubikat](https://sspai.com/post/58897)
+  - [四：用 Zotero 保存 Kubikat 检索条目](https://sspai.com/post/58898)
+  - [五：艺术史的写作：图像的尤利西斯之旅](https://sspai.com/post/58908)
+  - [如何勾画文艺复兴艺术史研究的全貌](https://sspai.com/post/62628)
+
+- 中文用户向 Zotero 实践文章 (节选)
+  - [文献管理终级神器 Zotero](http://www.hanlindong.com/2018/zotero-citation-manager/)
+  - [四步实现自定义 Zotero 参考文献格式](https://zhuanlan.zhihu.com/p/31326415)
+  - [用 Zotero + 坚果云搞定多设备文献管理](https://sspai.com/post/64283)
+  - [使用 Zotero 在 Markdown 中优雅地处理参考文献](https://sspai.com/post/60825)
+  - [Zotero 和它的朋友们：一个文献阅读生态](https://sspai.com/post/57943)
+
+## Zotero 工具与生态
 
 ### Citation Style Language (CSL)
 
-- [Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-STD-GB-T-7714-related-csl) - 该仓库存放了中华人民共和国国家标准 GB/T 7714—2015 相关的 CSL 样式。
+- [Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-STD-GB-T-7714-related-csl)
+  GB/T 7714-2015 相关 CSL 样式合集，覆盖期刊，学位论文等常见需求，中文科研用户的基础设施。
 
-### Text Editor Plugin for Zotero
+### 编程接口与批处理
 
-- [Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) - 这个插件可以帮助你处理参考文献。在使用 Visual Studio Code 的 Markdown、pandoc（.md 后缀）以及 LaTeX 文件的编写过程中，如果想要实现类似 Word 文件的编辑过程，边插入边更新 bib 文件。或者想将当前文件的 key 列表，导出最终的 bib 文件，那么该插件就非常适合你。
+- [Pyzotero](https://github.com/urschrei/pyzotero)
+  Zotero Web API 与本地 API 的 Python 客户端，支持脚本访问，批量导入导出，查询与修改条目。
 
-### Other Zotero Resources on GitHub
+- [zotero-cli](https://github.com/dhondta/zotero-cli)
+  基于 Pyzotero 的命令行工具，可以按条件筛选条目，输出为 CSV 或 Excel, 用于批量整理与统计。
 
-- [zotero-javascripts](https://github.com/redleafnew/zotero-javascripts) - 这个仓库存放了用于批处理的 JavaScript 脚本。
-- [Zotsite](https://github.com/plandes/zotsite) - 这个插件能将你的本地 Zotero 数据库导出为一个可用的 HTML 网站。
-- [Kerko](https://github.com/whiskyechobravo/kerko) - 这个仓库是一个用 Python 为 Flask 框架实现的网络应用组件，它为 Zotero 提供了一个用户友好的搜索和浏览界面。
-- [Pyzotero](https://github.com/urschrei/pyzotero) - 这个仓库是一个封装 Zotero API 的 Python 库。
-- [dhondta/zotero-cli: Tinyscript tool for sorting and exporting Zotero references based on pyzotero](https://github.com/dhondta/zotero-cli) - TODO
-- [e-alizadeh/Zotero2MD: A Python library to retrieve annotations and notes from Zotero and save them into Markdown files.](https://github.com/e-alizadeh/Zotero2MD) - TODO
-- [e-alizadeh/Zotero2Readwise: A Python Library to retrieve annotations and notes from Zotero and upload them to your Readwise.](https://github.com/e-alizadeh/Zotero2Readwise) - TODO
-- [alixlahuec/zotero-roam: Connector extension between Roam Research & Zotero](https://github.com/alixlahuec/zotero-roam) - TODO
-- [arvinxx/zotero-engine-list: 一份实用的 Zotero 检索引擎](https://github.com/arvinxx/zotero-engine-list) - TODO
+- [Zotero2MD](https://github.com/e-alizadeh/Zotero2MD)
+  从 Zotero 抓取注释与笔记，导出为结构化 Markdown 文件，常用于对接 Obsidian, Logseq 等。
 
-## Zotero Plugins
+- [Zotero2Readwise](https://github.com/e-alizadeh/Zotero2Readwise)
+  将 Zotero 的高亮与笔记同步到 Readwise, 构建外部的阅读复习体系。
 
-> 最常用的 Zotero 插件，能够大幅提高大家的工作效率。
+- [zotero-javascripts](https://github.com/redleafnew/zotero-javascripts)
+  面向高级用户的批处理脚本集合，如批量修改标题大小写，清空特定字段，统一语言等。
 
-- [BibNotes Formatter](https://github.com/stefanopagliari/bibnotes) - 这个插件可以从存储在你的 Zotero 库中的资料生成 literaure notes，包括元数据和存储在 Zotero 中的注释（使用本地 PDF 阅读器或 Zotfile 插件提取的）。该插件的设置提供了不同的工具来定制文献注释的格式，以及对注释的文本进行不同的转换。
-- [Better BibTeX for Zotero](https://github.com/retorquere/zotero-better-bibtex) - 这个插件是必备的，假设你想在 Markdown、LaTeX 中更舒服的使用引文，或者想让 Zotero 与你常用的知识管理工具 Logseq、Roam Research 联动。
-    - [使用 Markdown 搭配 Pandoc 撰写学术论文的详细指南 - 知乎](https://zhuanlan.zhihu.com/p/395193554)
-    - [Markdown 写作，Pandoc 转换：我的纯文本学术写作流程 - 少数派](https://sspai.com/post/64842)
-    - [zoteroRoam](https://alix-lahuec.gitbook.io/zotero-roam/)
-- [Cita](https://github.com/diegodlh/zotero-cita) - 该插件是让你的 Zotero 支持 Wikidata 数据结构的插件。
-- [Jasminum](https://github.com/l0o0/jasminum) - 该插件能处理中文元数据。
-- [Mdnotes](https://github.com/argenos/zotero-mdnotes) - 该插件用于将项目元数据和注释导出为 Markdown 文件。
-- [Zotero DOI Manager](https://github.com/bwiernik/zotero-shortdoi) - 这个插件可以让你的 Zotero 资料库元数据更加稳健。它使用 CrossRef API 检索和校验 DOI 与 Short DOI。
-- [Zotero PDF Translate](https://github.com/windingwind/zotero-pdf-translate) - 该插件为 Zotero 内置的 PDF 阅读器增加翻译功能。
-- [Zotero Tag](https://github.com/windingwind/zotero-tag) - 该插件能帮助你管理 Zotero 的标签。
-- [Zotero Scihub](https://github.com/ethanwillis/zotero-scihub) - 该插件从事科研工作必备。自动下载付费墙背后的论文。提醒：需要科学上网。
-- [Zotero Duplicates Merger](https://github.com/frangoud/ZoteroDuplicatesMerger) - 该插件能帮助你大规模批量去重条目，必备。
-- [Zotero Update IFs](https://github.com/redleafnew/zotero-updateifs) -  该插件是一款帮助你从**唯问**更新期刊影响因子的插件。
-- [zotero-folder-import](https://github.com/retorquere/zotero-folder-import) - 该插件让 Zotero 支持导入一整个文件夹。
-- [zotero-memento](https://github.com/leonkt/zotero-memento) - 该插件能自动把那些通过 Translator 添加到 Library 的网页保存到多个互联网档案馆（Internet Archive、archive.is、archive.today 等）。
-- [Zotfile](https://github.com/jlegewie/zotfile) - 该插件原本最好用的功能是自动重命名下载的文件。结果，Zotero 新版自带这个功能了。所以这个亮点被淹没了。无论如何，如果需要更多自定义，自动重命名的方法，以及提取 PDF 注释，这个插件还是绕不过；
-- [Zutilo](https://github.com/wshanks/Zutilo) - 该插件是 Zotero 的必备插件。加速 Zotero 的常用操作，提供了大量快捷操作方式，并且支持自定义快捷键。能够大大减少体力劳动。具体配置可参考 [Zutilo/COMMANDS.md at master · wshanks/Zutilo](https://github.com/wshanks/Zutilo/blob/master/docs/COMMANDS.md)。
-- [zotxt](https://github.com/egh/zotxt) - 该插件是 Zotero 的一个扩展，用于支持处理纯文本文件的工具（例如，Markdown、reStructuredText、LaTeX 等）。
-- [ZoteroQuickLook](https://github.com/404neko/ZoteroQuickLookReload) - 该插件给 Zotero 提供类似 macOS 自带的预览功能。
-- [Zotero Storage Scanner](https://github.com/retorquere/zotero-storage-scanner) - 该插件可以用于检查损坏以及重复的附件。
-- [Report Customizer for Zotero](https://github.com/retorquere/zotero-report-customizer) - 该插件让你能自定义 Zotero 的 Report 字段。
-- [Zotero Scholar Citations](https://github.com/beloglazov/zotero-scholar-citations) - 该插件可用于自动获取谷歌学者的引文数量。
-- [Zotero Citation Counts Manager](https://github.com/eschnett/zotero-citationcounts) - 该插件可以通过各种 API 自动获取期刊文章的引文数量，包括 Crossref、Inspire HEP 和 Semantic Scholar。不支持 Google Scholar，因为爬虫是违反其服务条款的。具体可参这篇[文章](https://mp.weixin.qq.com/s?__biz=MzAxNzgyMDg0MQ==&mid=2650462570&idx=1&sn=981b09f742d0ea48c90b13dc18331f81&chksm=83d1c4acb4a64dba59b6ea1c64608d64d37ce4bb40160298ad0818ee08378254413fb7dbe991#rd)。
-- [scite-zotero-plugin](https://github.com/scitedotai/scite-zotero-plugin) - 该插件可以为 Zotero Items 添加来自 [scite](https://scite.ai/) 元数据。scite 会统计支持或反对某篇文章的数量。
-- [pubpeer_zotero_plugin](https://github.com/PubPeerFoundation/pubpeer_zotero_plugin) - 该插件可以为 Zotero Items 添加来自 Pubpeer 的元数据。PubPeer 使科学家能够搜索他们的出版物或其同行的出版物，并以匿名方式提供反馈。
-- [TobiHol/zotero-more-metadata](https://github.com/TobiHol/zotero-more-metadata) - TODO
-- [UB-Mannheim/zotero-ocr: Zotero Plugin for OCR](https://github.com/UB-Mannheim/zotero-ocr) - TODO
-- [qnscholar/zotero-if](https://github.com/qnscholar/zotero-if) - TODO
+### 网页与在线书目
 
-### TODO Zotero Plugins Dev
+- [Zotsite](https://github.com/plandes/zotsite)
+  将本地 Zotero 库导出为可离线浏览的 HTML 网站，适合自建小型书目站点或备份。
 
-> 常用的 Zotero Plugins 开发资源。
+- [Kerko](https://github.com/whiskyechobravo/kerko)
+  基于 Zotero Web API 的在线书目前端组件，支持筛选，搜索与分类浏览，被多所机构用于公开书目项目。
+
+## Zotero 插件 (Zotero 7)
+
+> 本节只列出对 Zotero 7 有明确支持或广泛实践检验的插件。
+
+### 核心必装套件
+
+- [Better BibTeX for Zotero](https://github.com/retorquere/zotero-better-bibtex)
+  稳定的 citekey, 强大的导出和自动更新，是任何涉及 LaTeX, Markdown, Pandoc 的工作流基础组件。
+
+- [Better Notes for Zotero](https://github.com/windingwind/zotero-better-notes)
+  把 Zotero 的笔记系统升级到「知识库」级别，支持块级引用，子笔记，大纲视图和 Markdown 同步。
+
+- [Translate for Zotero](https://github.com/windingwind/zotero-pdf-translate)
+  为 Zotero 内置阅读器提供翻译服务，尤其适合英文文献阅读和双语写作。
+
+- [Actions & Tags for Zotero](https://github.com/windingwind/zotero-actions-tags)
+  用规则和脚本驱动的自动化中枢，可以根据元数据，标签，集合等条件自动触发一系列操作。
+
+- [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
+  聚焦元数据质量，一次性修复大量小问题，为后续写作与导出打下干净的基础。
+
+- [ZotMoov](https://github.com/wileyyugioh/zotmoov)
+  统一管理附件的存储位置与重命名策略，以云盘为中心搭建多设备阅读与备份方案。
+
+- [Zotero Add-on Market](https://github.com/syt2/zotero-addons)
+  插件市场，适合作为发现与升级插件的统一入口。
+
+- [Jasminum](https://github.com/l0o0/jasminum)
+  针对中文元数据的增强，解决人名，期刊名，拼音排序等一系列细节问题。
+
+- [Zotero ShortDOI](https://github.com/bwiernik/zotero-shortdoi)
+  对 DOI 做自动校验与补全，提高引用链接的持久性与准确性。
+
+- 去重与附件健康
+  - [ZoteroDuplicatesMerger](https://github.com/frangoud/ZoteroDuplicatesMerger)
+  - [Zoplicate](https://github.com/Polygon/zoplicate)
+  - [Attachment Scanner](https://github.com/retorquere/zotero-attachment-scanner)
+
+### 阅读与笔记增强
+
+- [Ethereal Style for Zotero](https://github.com/MuiseDestiny/zotero-style)
+  大幅增强界面与阅读体验，包括阅读进度，标签侧栏，高亮样式等，适合重度阅读用户。
+
+- [Ethereal Reference](https://github.com/MuiseDestiny/zotero-reference)
+  从 PDF 参考文献中识别文献并匹配到 Zotero 条目，构建更完整的引用网络。
+
+- [Chartero](https://github.com/volatile-static/Chartero)
+  提供阅读统计与可视化，构建个人阅读时间线与热力图，对自我管理有需求时可以尝试。
+
+- [zotero-ocr](https://github.com/UB-Mannheim/zotero-ocr)
+  为扫描版 PDF 执行 OCR, 生成可检索文本，并可同时生成注释或 hOCR 输出。
+
+### 元数据清理与去重
+
+- [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
+- [ZoteroDuplicatesMerger](https://github.com/frangoud/ZoteroDuplicatesMerger)
+- [Zoplicate](https://github.com/Polygon/zoplicate)
+- [Attachment Scanner](https://github.com/retorquere/zotero-attachment-scanner)
+
+如果你准备大规模整理老库，建议的顺序是：
+备份库 → 使用 Linter 统一元数据 → 用 ZoteroDuplicatesMerger 与 Zoplicate 去重 → 用 Attachment Scanner 检查丢失附件与重复文件。
+
+### 评价与科研情报
+
+- [Zotero-IF](https://github.com/qnscholar/zotero-if)
+  更新期刊影响因子和中科院分区，支持按年更新，适合中文科研评价使用场景。
+
+- [Citation Tally](https://github.com/syt2/zotero-citation-tally)
+  面向 Zotero 7 的引文统计插件，可以为条目批量拉取引用次数并可视化。
+
+- [scite-zotero-plugin](https://github.com/scitedotai/scite-zotero-plugin)
+  集成 scite 的支持，反对，提及统计，提供更细粒度的引用质量信息。
+
+- [pubpeer_zotero_plugin](https://github.com/PubPeerFoundation/pubpeer_zotero_plugin)
+  将 PubPeer 评论挂在条目下，有助于发现可能存在问题的研究。
+
+- [zotero-inspire](https://github.com/inspirehep/zotero-inspire)
+  面向高能物理等领域，深度集成 INSPIRE-HEP, 是该社区的常见工具。
+
+### AI 与大模型集成
+
+- [Awesome GPT for Zotero](https://github.com/MuiseDestiny/zotero-gpt)
+  在 Zotero 内调用 GPT 模型，对选中文本执行总结，改写，翻译，问答等操作，使用标签或命令驱动工作流。
+
+- [PapersGPT for Zotero](https://github.com/papersgpt/papersgpt-for-zotero)
+  以对话形式阅读 PDF, 支持多家 LLM 服务，并通过 MCP 将 Zotero 暴露给其他客户端。
+
+- [Zotero-TLDR](https://github.com/syt2/Zotero-TLDR)
+  自动从 Semantic Scholar 获取 TLDR 摘要，提供快速了解文献内容的入口。
+
+- [zotero-chatgpt](https://github.com/kazgu/zotero-chatgpt)
+  通过 ChatGPT API 做总结与翻译的轻量插件，适合作为按需尝试的选件。
+
+> 使用这类插件前，请确认自己可以接受相应服务对数据的处理方式，不要把保密稿件与敏感数据直接发送给第三方服务。
+
+### 与其他工具的集成
+
+- [zotxt](https://github.com/egh/zotxt)
+  为 Pandoc, Markdown, Emacs Org 等提供本地 HTTP 引用接口，在纯文本写作工作流里非常常见。
+
+- [MarkDB-Connect](https://github.com/daeh/zotero-markdb-connect)
+  扫描 Markdown 文件中的 citekey, 在 Zotero 中为对应条目打标签并建立跳转，适合作为 Zotero 与 Obsidian, Logseq, Zettlr 等工具之间的桥梁。
+
+- [Notero](https://github.com/dvanoni/notero)
+  将 Zotero 文献同步到 Notion 数据库，配合 Notion 模板可以管理文献，项目与写作任务。
+
+- [zotero-roam](https://github.com/alixlahuec/zotero-roam)
+  Roam Research 与 Zotero 的连接器，为 Roam 中的笔记自动注入文献信息与链接。
 
 ## Zotero Translators
 
-> 常用的 Zotero Translators。
+> Translators 决定了 Zotero 如何从网页和数据库抓取元数据，对中文用户尤其重要。
 
-- [OpenMindClub/awesome-translators](https://github.com/OpenMindClub/awesome-translators) - 本仓库存放 2018 年至今，开智学堂信息分析课程组与学员共创的 Translators。
-- [l0o0/translators_CN](https://github.com/l0o0/translators_CN) - 本仓库存放另一些中文 Translators。
+- [OpenMindClub/awesome-translators](https://github.com/OpenMindClub/awesome-translators)
+  开智学堂信息分析课程团队与学员共创的 Translators 集合，包含大量中文站点支持。
 
-### Zotero Translators Dev
+- [l0o0/translators_CN](https://github.com/l0o0/translators_CN)
+  对中文学术站点提供增强支持的 Translators 集合，包括 CNKI 等。
 
-> 常用的 Zotero Translators 开发资源。
+## 开发资源
 
-- [dev:translators](https://www.zotero.org/support/dev/translators) - Zotero 官方提供的 Translators 开发指南。
+> 想写自己的插件或 Translators, 从这里开始。
+
+- [Zotero 插件开发文档](https://www.zotero.org/support/dev/client_coding/plugin_development)
+- [Zotero 7 for Developers](https://www.zotero.org/support/dev/zotero_7_for_developers)
+- [Translators 开发指南](https://www.zotero.org/support/dev/translators)
+
+插件模板与脚手架：
+
+- [windingwind/zotero-plugin-template](https://github.com/windingwind/zotero-plugin-template)
+- [northword/zotero-plugin-scaffold](https://github.com/northword/zotero-plugin-scaffold)
+- [retorquere/generator-zotero-plugin](https://github.com/retorquere/generator-zotero-plugin)
+- [MuiseDestiny/zotero-addon-template](https://github.com/MuiseDestiny/zotero-addon-template)
+
+## 避免踩坑：不再推荐的插件
+
+> 以下插件在 Zotero 7 中存在兼容性或维护问题，不再作为推荐方案，仅供你识别和迁移旧工作流。
+
+- **Zotfile**
+  曾经的附件管理神器，现不再支持 Zotero 7。推荐改用 ZotMoov, 同时使用 Zotero 7 内置的自动重命名功能。
+
+- **Mdnotes for Zotero**
+  已归档并停止维护，不兼容 Zotero 7。推荐使用 Zotero 内置 Markdown 导出，Better Notes, Zotero2MD 和 Obsidian 插件等组合替代。
+
+- **Zotero Scihub**
+  无法在 Zotero 7 中正常安装，也涉及版权和服务条款风险。公开场合不再推荐该插件。
+
+- **Zotero Storage Scanner**
+  仓库已归档，建议改用 Attachment Scanner 等新工具执行附件扫描与清理。
+
+- **Zotero Scholar Citations**
+  依赖对 Google Scholar 的抓取，在当前环境下经常不可用，不建议继续使用。引文计量推荐使用 Citation Tally 和 Scite 插件。
+
+- **Report Customizer for Zotero**
+  长期未对 Zotero 7 做适配，不建议基于它设计新的报告工作流。
+
+- **Zutilo**
+  在 Zotero 7 中仅部分功能可用，且存在不兼容风险。可作为高级用户按需安装的工具，不再视为默认必装。
+
+- **ZoteroQuickLookReload**
+  面向 Zotero 6 的附件预览增强，Zotero 7 已有改进的预览体验，一般无需再安装。
 
 ## Contribute
 
-欢迎增补！请先阅读 [contribution guidelines](CONTRIBUTING.zh-cn.md)，在 Fork 本仓库后提交 Pull Request。
+欢迎增补与修订。
 
-## Contributors
-
-感谢所有贡献者。
-
-## Contact
-
-请使用 GitHub [Issues](https://github.com/OpenMindClub/awesome-zotero/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) 来联系我们。
+1. 请先阅读仓库中的贡献指南 (CONTRIBUTING 文件)。
+2. Fork 本仓库，按照 Awesome List 的格式添加或修改条目。
+3. 提交 Pull Request, 简要说明你的修改动机与使用经验。
 
 ## Credits
 
-感谢[阳志平老师](https://www.yangzhiping.com/)以及[开智学堂](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4ODM4ODQ3MQ==#wechat_redirect)对本项目的大力支持。
+感谢：
+
+- 阳志平老师与开智学堂，最早系统整理了中文语境下的 Zotero 实践。
+- 所有插件作者与维护者，是他们支撑起 Zotero 生态。
+- 参与本仓库的所有贡献者，持续帮大家避坑，提升使用体验。
 
 ## License
+
+本仓库采用 CC0 许可协议发布。
+
+详情见：
 
 [![CC0][CC0-badge]][CC0-link]
 
