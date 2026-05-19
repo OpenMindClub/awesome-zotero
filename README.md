@@ -255,6 +255,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 - [zotero-chatgpt](https://github.com/kazgu/zotero-chatgpt)
   Lightweight add-on for summarization and translation via the ChatGPT API—good for occasional use.
 
+- [Suppr Zotero Plugin](https://github.com/WildDataX/suppr-zotero-plugin)
+  Adds the Suppr document translation workflow to Zotero, with one-click translation for PDFs and Office documents. Useful when you want AI-assisted bilingual reading while keeping the Zotero literature-management context.
+
 > Before using these add-ons, make sure you're comfortable with how the underlying services process your data. Do not send confidential manuscripts or sensitive data to third parties.
 
 ### Integration with other tools
