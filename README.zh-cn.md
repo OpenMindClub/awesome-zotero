@@ -255,6 +255,9 @@
 - [zotero-chatgpt](https://github.com/kazgu/zotero-chatgpt)
   通过 ChatGPT API 做总结与翻译的轻量插件，适合作为按需尝试的选件。
 
+- [Suppr Zotero Plugin](https://github.com/WildDataX/suppr-zotero-plugin)
+  将 Suppr 超能文献的文档翻译工作流接入 Zotero，支持对 PDF、Word、PowerPoint 等文档进行一键翻译，适合希望在 Zotero 文献管理场景中完成双语阅读与论文翻译的用户。
+
 > 使用这类插件前，请确认自己可以接受相应服务对数据的处理方式，不要把保密稿件与敏感数据直接发送给第三方服务。
 
 ### 与其他工具的集成
