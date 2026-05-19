@@ -214,6 +214,9 @@ Community-maintained navigation to the Zotero 7 ecosystem. Focused on high-quali
 - [zotero-ocr](https://github.com/UB-Mannheim/zotero-ocr)
   Runs OCR on scanned PDFs to generate searchable text, with optional annotations or hOCR output.
 
+- [Weavero](https://github.com/mjthoraval/Weavero)
+  A Zotero plugin to make clickable links and filter your library.
+
 ### Metadata cleanup and de-duplication
 
 - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
