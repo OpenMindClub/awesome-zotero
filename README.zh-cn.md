@@ -217,6 +217,8 @@
 ### 元数据清理与去重
 
 - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
+- [Zotero Metadata Hunter](https://github.com/federicotorrielli/zotero-metadata-hunter)
+  查找缺失的 DOI 和摘要，将预印本替换为已发表版本，并补全文献条目的稀疏元数据，同时保留附件和批注。
 - [ZoteroDuplicatesMerger](https://github.com/frangoud/ZoteroDuplicatesMerger)
 - [Zoplicate](https://github.com/Polygon/zoplicate)
 - [Attachment Scanner](https://github.com/retorquere/zotero-attachment-scanner)

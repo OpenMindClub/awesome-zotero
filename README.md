@@ -217,6 +217,8 @@ Community-maintained navigation to the Zotero 7 ecosystem. Focused on high-quali
 ### Metadata cleanup and de-duplication
 
 - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
+- [Zotero Metadata Hunter](https://github.com/federicotorrielli/zotero-metadata-hunter)
+  Finds missing DOIs and abstracts, replaces preprints with their published versions, and enriches sparse records while keeping attachments and annotations intact.
 - [ZoteroDuplicatesMerger](https://github.com/frangoud/ZoteroDuplicatesMerger)
 - [Zoplicate](https://github.com/Polygon/zoplicate)
 - [Attachment Scanner](https://github.com/retorquere/zotero-attachment-scanner)
