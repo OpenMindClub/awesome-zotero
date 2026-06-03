@@ -241,6 +241,9 @@
 - [zotero-inspire](https://github.com/inspirehep/zotero-inspire)
   面向高能物理等领域，深度集成 INSPIRE-HEP, 是该社区的常见工具。
 
+- [arxiv-marker](https://github.com/lelelelelelelelelelelelele/arxiv-marker)
+  解析 arXiv 预印本的真实发表会议/期刊、CORE/CCF 等级与引用次数（Semantic Scholar，CS 会议用 DBLP 兜底），并写回为规范的 Zotero 元数据，让 Zotero-IF、Citation Tally、Ethereal Style 等评估类插件能识别它们。原生 Zotero 7/9 插件；确定性解析，写入前逐条预览确认。
+
 ### AI 与大模型集成
 
 - [Awesome GPT for Zotero](https://github.com/MuiseDestiny/zotero-gpt)
