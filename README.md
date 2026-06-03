@@ -154,9 +154,6 @@ Community-maintained navigation to the Zotero 7 ecosystem. Focused on high-quali
 - [zotero-javascripts](https://github.com/redleafnew/zotero-javascripts)
   A collection of batch-processing scripts for advanced users, e.g., bulk-change title case, clear specific fields, or normalize language fields.
 
-- [zotero-marker](https://github.com/lelelelelelelelelelelelele/zotero_marker)
-  Resolves the real publication venue, CORE/CCF tier, and citation count of arXiv preprints (via Semantic Scholar + DBLP) and writes them back as proper Zotero metadata, so impact-factor / CCF / citation add-ons such as easyScholar and Citation Tally recognize them. Deterministic, with every change reviewed before writing.
-
 ### Web and online bibliographies
 
 - [Zotsite](https://github.com/plandes/zotsite)
@@ -243,6 +240,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 
 - [zotero-inspire](https://github.com/inspirehep/zotero-inspire)
   Deep integration with INSPIRE-HEP for high-energy physics and related fields; a common tool in that community.
+
+- [arxiv-marker](https://github.com/lelelelelelelelelelelelele/arxiv-marker)
+  Resolves the real publication venue, CORE/CCF tier, and citation count of arXiv preprints (Semantic Scholar, with a DBLP fallback for CS conferences) and writes them back as proper Zotero metadata, so evaluation add-ons such as Zotero-IF, Citation Tally, and Ethereal Style recognize them. Native Zotero 7/9 plugin; deterministic, with every change reviewed before writing.
 
 ### AI and large-language-model integration
 
