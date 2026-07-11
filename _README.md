@@ -87,6 +87,7 @@ Your help is much appreciated. If you want to add something or fix a problem, lo
 - [Zotero-OCR](https://github.com/UB-Mannheim/zotero-ocr) - OCR PDFs in Zotero.
 - [Zotero-reading-list](https://github.com/Dominic-DallOsto/zotero-reading-list) - Keep track of whether you've read items in Zotero.
 - [zotcite](https://github.com/jalvesaq/zotcite) - Neovim plugin for integration with Zotero.
+- [zotio](https://github.com/OrgMentem/zotio) - Zotero automation CLI — library health checks, preview-first writes, annotation export, MCP server for AI agents; local-first keyless reads.
 - [zotxt](https://github.com/egh/zotxt) - Zotero extension for supporting utilities that deal with plain text files.
 
 ### Translations
