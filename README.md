@@ -265,6 +265,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 - [MarkDB-Connect](https://github.com/daeh/zotero-markdb-connect)
   Scans Markdown files for citekeys, tags corresponding items in Zotero, and creates back-links. Acts as a bridge between Zotero and tools like Obsidian, Logseq, and Zettlr.
 
+- [PaperForge](https://github.com/Lurek-st/PaperForge)
+  Local-first Zotero → AI Agent → Obsidian workflow for traceable paper reading, source-located evidence review, and structured research notes. Uses Zotero as a read-only source and exports long-term reading artifacts to Obsidian; it is an external workflow, not a Zotero add-on.
+
 - [Notero](https://github.com/dvanoni/notero)
   Syncs Zotero items to a Notion database, which you can then manage with Notion templates for literature, projects, and writing.
 
