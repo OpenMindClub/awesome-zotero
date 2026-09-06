@@ -214,6 +214,9 @@ Community-maintained navigation to the Zotero 7 ecosystem. Focused on high-quali
 - [zotero-ocr](https://github.com/UB-Mannheim/zotero-ocr)
   Runs OCR on scanned PDFs to generate searchable text, with optional annotations or hOCR output.
 
+- [Zotero-TTS](https://github.com/xujialiu/Zotero-TTS)
+  Enhances Zotero 10's built-in Read Aloud: more voices in its Local tier (Azure Speech, a local Kokoro server, any OpenAI-compatible server, your system's voices), word and sentence highlighting at once in your own colors, and keyboard shortcuts for speed and skipping. Requires Zotero 10.
+
 ### Metadata cleanup and de-duplication
 
 - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)

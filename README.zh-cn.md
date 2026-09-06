@@ -214,6 +214,9 @@
 - [zotero-ocr](https://github.com/UB-Mannheim/zotero-ocr)
   为扫描版 PDF 执行 OCR, 生成可检索文本，并可同时生成注释或 hOCR 输出。
 
+- [Zotero-TTS](https://github.com/xujialiu/Zotero-TTS)
+  Zotero 10 内置朗读功能的增强插件：本地语音模式里更多语音（Azure Speech、本地 Kokoro 服务、任意 OpenAI 兼容服务、系统语音）、按你的颜色逐词与逐句同时高亮、语速与跳转快捷键。需要 Zotero 10。
+
 ### 元数据清理与去重
 
 - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
