@@ -271,6 +271,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 - [zotero-roam](https://github.com/alixlahuec/zotero-roam)
   Connector between Roam Research and Zotero, automatically injecting bibliographic information and links into Roam notes.
 
+- [DevScholar](https://github.com/pallaprolus/dev-scholar)
+  VS Code extension that detects paper references (arXiv, DOI, PubMed, IEEE) in code comments and syncs them two-way with Zotero: push papers cited in code to a linked collection, or import items from Zotero and insert citations. Also shows metadata on hover and previews PDFs inside the editor.
+
 ## Zotero Translators
 
 > Translators determine how Zotero grabs metadata from websites and databases. They are particularly important for Chinese-language sites.
