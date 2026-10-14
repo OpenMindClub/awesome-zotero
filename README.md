@@ -271,6 +271,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 - [zotero-roam](https://github.com/alixlahuec/zotero-roam)
   Connector between Roam Research and Zotero, automatically injecting bibliographic information and links into Roam notes.
 
+- [Zotero + Obsidian AI Workflow](https://github.com/Bigsillymao/zotero-obsidian-ai-workflow)
+  An AI-agent workflow suite that maintains Zotero and Obsidian together: full read/write of items, collections, tags, and attachments through an included bridge plugin, with literature cards and knowledge pages kept up to date in the vault.
+
 ## Zotero Translators
 
 > Translators determine how Zotero grabs metadata from websites and databases. They are particularly important for Chinese-language sites.
