@@ -271,6 +271,9 @@
 - [zotero-roam](https://github.com/alixlahuec/zotero-roam)
   Roam Research 与 Zotero 的连接器，为 Roam 中的笔记自动注入文献信息与链接。
 
+- [Zotero HF Daily Papers](https://github.com/buptweixin/zotero-hf-daily-papers)
+  在 Zotero 里浏览 HuggingFace Daily Papers：按 arXiv 惯例导入当天论文为 preprint 条目（含 DOI、archiveID、可选 PDF），按 AI 关键词与 upvotes 自动打标签，并按日期与主题自动归类。支持 Zotero 7，AGPL-3.0。
+
 ## Zotero Translators
 
 > Translators 决定了 Zotero 如何从网页和数据库抓取元数据，对中文用户尤其重要。

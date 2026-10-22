@@ -271,6 +271,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 - [zotero-roam](https://github.com/alixlahuec/zotero-roam)
   Connector between Roam Research and Zotero, automatically injecting bibliographic information and links into Roam notes.
 
+- [Zotero HF Daily Papers](https://github.com/buptweixin/zotero-hf-daily-papers)
+  Browse HuggingFace Daily Papers inside Zotero: import a day's papers as preprint items with arXiv metadata (DOI, archiveID, optional PDF), auto-tag by AI keywords and upvotes, and auto-file into date and topic collections. Zotero 7, AGPL-3.0.
+
 ## Zotero Translators
 
 > Translators determine how Zotero grabs metadata from websites and databases. They are particularly important for Chinese-language sites.
