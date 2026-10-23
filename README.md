@@ -249,6 +249,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 - [PapersGPT for Zotero](https://github.com/papersgpt/papersgpt-for-zotero)
   Enables conversational reading of PDFs. Supports multiple LLM providers and exposes Zotero via MCP to other clients.
 
+- [Semantic Tagger](https://github.com/roey-angel/zotero-semantic-tagger)
+  Automatically tags new items using the Claude API, choosing only from tags that already exist in your library—it never invents new ones. Supports batch tagging, synonym groups, and a strictness setting.
+
 - [Zotero-TLDR](https://github.com/syt2/Zotero-TLDR)
   Automatically fetches TLDR-style summaries from Semantic Scholar to give you a quick overview of a paper.
 
