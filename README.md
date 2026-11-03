@@ -246,6 +246,9 @@ Back up the library → use Linter to normalize metadata → use ZoteroDuplicate
 - [Awesome GPT for Zotero](https://github.com/MuiseDestiny/zotero-gpt)
   Call GPT models directly inside Zotero to summarize, rewrite, translate, and answer questions about selected text. Uses tags or commands to drive workflows.
 
+- [BibGenie](https://github.com/BaiRuic/BibGenie) ([website](https://bibgenie.com), [documentation](https://bibgenie.com/docs))
+  AI research assistant inside Zotero for discussing papers with traceable citations, searching and organizing your library, and working with notes and annotations. Supports built-in models, custom API keys, and local models.
+
 - [PapersGPT for Zotero](https://github.com/papersgpt/papersgpt-for-zotero)
   Enables conversational reading of PDFs. Supports multiple LLM providers and exposes Zotero via MCP to other clients.
 
