@@ -214,6 +214,9 @@
 - [zotero-ocr](https://github.com/UB-Mannheim/zotero-ocr)
   为扫描版 PDF 执行 OCR, 生成可检索文本，并可同时生成注释或 hOCR 输出。
 
+- [Interlinear](https://github.com/Muanyan-mjq/zotero-interlinear)
+  在内置 PDF 阅读器里按段落生成中英对照译文，内置免费翻译服务链与 OpenAI 兼容、Claude、Gemini、Ollama 后端。
+
 ### 元数据清理与去重
 
 - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)

@@ -214,6 +214,9 @@ Community-maintained navigation to the Zotero 7 ecosystem. Focused on high-quali
 - [zotero-ocr](https://github.com/UB-Mannheim/zotero-ocr)
   Runs OCR on scanned PDFs to generate searchable text, with optional annotations or hOCR output.
 
+- [Interlinear](https://github.com/Muanyan-mjq/zotero-interlinear)
+  Renders paragraph-level bilingual translations inside Zotero's built-in PDF reader, with a free translation service chain and OpenAI-compatible, Claude, Gemini, and Ollama backends.
+
 ### Metadata cleanup and de-duplication
 
 - [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
